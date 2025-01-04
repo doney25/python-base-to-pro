@@ -1,5 +1,6 @@
 #method1
-a=input("Enter a number: ")
+import random
+a=random.randrange(1,100)
 if int(a)%2==0:
     print(f'{a} is even')
 else:
