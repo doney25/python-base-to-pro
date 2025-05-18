@@ -3,5 +3,5 @@ def rev_str(s):
         return s
     else:
         return s[-1]+rev_str(s[:-1])
-str=input("Enter a string: ")
-print(rev_str(str))
+str1=input("Enter a string: ")
+print(rev_str(str1))
