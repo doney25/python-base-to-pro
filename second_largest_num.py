@@ -6,7 +6,7 @@ def sec_lnum(arr):
     first = second = float('-inf')
 
     for num in arr:
-        if num > first:
+        if num > first: 
             second = first
             first = num
         elif first > num > second:
